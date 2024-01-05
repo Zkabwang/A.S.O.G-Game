@@ -2,6 +2,7 @@ body {
   text-align: center;
   background-image: url("images/IMG_5547.JPG");
   object-fit: cover;
+  justify-content: center;
 }
 
 #level-title {
@@ -53,4 +54,23 @@ body {
 .pressed {
   box-shadow: 0 0 20px rgb(9, 60, 226);
   background-color: rgb(32, 218, 243);
+}
+
+#startreset {
+  height: 60px;
+  width: 65px;
+  background-color: white;
+  padding: 10px;
+  margin: 0 auto;
+  cursor: pointer;
+  box-shadow: 0px 4px rgb(0, 0, 0, 0.2);
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bold;
+
+  position: relative;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
 }
